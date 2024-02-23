@@ -1,4 +1,4 @@
-package pageObject.constants;
+package pageobject.constants;
 
 public class RentDurationConstants {
     public static final String ONE_DAY = "сутки";

@@ -1,4 +1,4 @@
-package pageObject.constants;
+package pageobject.constants;
 
 public enum CreateOrderButton {
     UP_BUTTON,

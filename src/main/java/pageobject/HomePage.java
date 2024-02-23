@@ -1,4 +1,4 @@
-package pageObject;
+package pageobject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static pageObject.constants.CreateOrderButton.DOWN_BUTTON;
-import static pageObject.constants.CreateOrderButton.UP_BUTTON;
+import static pageobject.constants.CreateOrderButton.DOWN_BUTTON;
+import static pageobject.constants.CreateOrderButton.UP_BUTTON;
 
 public class HomePage {
     WebDriver driver;

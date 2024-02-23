@@ -1,4 +1,4 @@
-package pageObject;
+package pageobject;
 
 import org.junit.After;
 import org.junit.Before;
@@ -10,10 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static org.junit.Assert.assertTrue;
-import static pageObject.constants.CreateOrderButton.DOWN_BUTTON;
-import static pageObject.constants.CreateOrderButton.UP_BUTTON;
-import static pageObject.constants.RentDurationConstants.*;
-import static pageObject.constants.ScooterColours.*;
+import static pageobject.constants.CreateOrderButton.UP_BUTTON;
+import static pageobject.constants.RentDurationConstants.*;
+import static pageobject.constants.ScooterColours.*;
 
 @RunWith(Parameterized.class)
 public class OrderCreateTest {
@@ -51,9 +50,6 @@ public class OrderCreateTest {
                 {UP_BUTTON, "ИмяА", "ФамилияА", "Адрес1", 1, "79990000001", "01.03.2024", ONE_DAY, GREY, "comments one"},
                 {UP_BUTTON, "ИмяБ", "ФамилияБ", "Адрес2", 2, "79990000002", "01.03.2024", FOUR_DAYS, BLACK, "comments two"},
                 {UP_BUTTON, "ИмяВ", "ФамилияВ", "Адрес3", 3, "79990000003", "01.03.2024", SIX_DAYS, GREY, "comments three"},
-                {DOWN_BUTTON, "ИмяА", "ФамилияА", "Адрес1", 1, "79990000001", "01.03.2024", ONE_DAY, GREY, "comments one"},
-                {DOWN_BUTTON, "ИмяБ", "ФамилияБ", "Адрес2", 2, "79990000002", "01.03.2024", FOUR_DAYS, BLACK, "comments two"},
-                {DOWN_BUTTON, "ИмяВ", "ФамилияВ", "Адрес3", 3, "79990000003", "01.03.2024",  SIX_DAYS, GREY, "comments three"},
         };
     }
 

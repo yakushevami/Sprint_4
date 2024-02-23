@@ -1,4 +1,4 @@
-package pageObject;
+package pageobject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static pageObject.constants.ScooterColours.*;
+import static pageobject.constants.ScooterColours.*;
 
 public class AboutScooter {
     WebDriver driver;

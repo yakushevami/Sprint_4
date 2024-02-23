@@ -1,4 +1,4 @@
-package pageObject;
+package pageobject;
 
 import org.junit.After;
 import org.junit.Before;
@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static org.junit.Assert.assertEquals;
-import static pageObject.constants.HomePageConstants.*;
+import static pageobject.constants.HomePageConstants.*;
 
 @RunWith(Parameterized.class)
 public class HomePageTest {
